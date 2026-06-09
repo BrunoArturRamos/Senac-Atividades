@@ -1,0 +1,24 @@
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+p {
+    color: chocolate;
+}
+
+img {
+    width: 500px;
+}
+
+a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: brown;
+    color: aqua;
+    outline: 1px solid dodgerblue;
+}
