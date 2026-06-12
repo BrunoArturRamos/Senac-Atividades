@@ -1,24 +1,31 @@
+body {
+    background-color: rgb(28, 130, 232);
+}
+  
+main { /* quadro branco */
+    border: 1px solid black;
+    background-color: aliceblue;
+    width: 800px;     
+    height: 900px; 
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px black;
+}
+div { /* imagem */
+    height: 300px;
+    background: url('bolo.jpg') no-repeat center center/cover;
+    margin: 5%;
+    border-radius: 12px;   
+}
 h1 {
-    color: rgb(255, 0, 0);
+    margin-top: 20px;
 }
-
-p {
-    color: chocolate;
+    
+h1, h2 { /* textos menores */
+    text-transform: uppercase;
+    text-align: center;
+    height: 1px;         
 }
-
-img {
-    width: 500px;
-}
-
-a {
-    background-color: blue;
-    color: aliceblue;
-    padding: 5px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: brown;
-    color: aqua;
-    outline: 1px solid dodgerblue;
+section {
+    margin: 90px;
 }
