@@ -13,6 +13,14 @@
 
 }
 label [for="btnMenu"] {
+    height: 50px;
+    flex: 1;
+    background-color: var(--bgMenu);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--font);
     display: none;
 }
 nav {
@@ -27,5 +35,16 @@ nav > a {
     min-width: 200px;
     text-align: center;
     border: 1px solid red;
-
+    flex: 1;
+}
+nav a:hover {
+    background-color: var(--btnHover);
+}
+@media (max-width: 800px) {
+    label [for="btnMenu"] {
+    display: block;
+    }
+    nav {
+    flex-direction: column;
+    }
 }
